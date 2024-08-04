@@ -28,16 +28,20 @@ Bus booking system mvp application
   ```
     php artisan key:generate
   ```
-6. Run migartions
+6. Generate JWT Secret Key:
+  ```
+    php artisan jwt:secret
+  ```
+7. Run migartions
   ```
     php artisan migrate --seed
   ```
-7. Run test cases
+8. Run test cases
   ```
     php artisan optimize:clear
     php artisan test
   ```
-8. Run Servers
+9. Run Servers
   ```
     php artisan serve --port 8080
   ```
@@ -59,6 +63,7 @@ For easier testing and development, you can use [the published Postman collectio
 | `DB_DATABASE` | `string` | `fleet_management` | Database name |
 | `DB_USERNAME` | `string` | `root` | Database username |
 | `DB_PASSWORD` | `string` | `empty` | Database password |
+| `JWT_SECRET` | `string` | `SomeRandomString`| JWT secret key to generate auth tokens |
 
 
 ### Docs & Help
