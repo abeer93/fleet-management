@@ -47,9 +47,6 @@ Bus booking system mvp application
   ```
 
 ## Test The APP
-Now, open your web browser and go to `http://localhost:8080/api/documentation` and check the swagger documentation and try it out.
-
-## Postman Collection
 For easier testing and development, you can use [the published Postman collection](https://documenter.getpostman.com/view/1146549/2sA3rwMuMz) to interact with the APIs.
 
 
