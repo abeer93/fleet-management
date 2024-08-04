@@ -27,9 +27,6 @@ composer.lock
 /.php-cs-fixer.cache
 /.phpunit.result.cache
 /storage/debugbar
-/storage/framework/cache
-/storage/framework/sessions
-/storage/framework/views
 /storage/logs
 /storage/metadata
 /storage/app/public
