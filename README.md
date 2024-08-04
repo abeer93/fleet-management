@@ -26,11 +26,11 @@ Bus booking system mvp application
   ```
 5. Generate an encryption key for the app:
   ```
-    app php artisan key:generate
+    php artisan key:generate
   ```
 6. Run migartions
   ```
-    app php artisan migrate --seed
+    php artisan migrate --seed
   ```
 7. Run test cases
   ```
